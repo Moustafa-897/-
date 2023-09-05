@@ -1,0 +1,444 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: end;
+    justify-content: space-around;
+    text-align: center;
+    flex-grow: 1;
+
+
+}
+
+.logo {
+    width: 10%;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.divp {
+    width: 20%;
+}
+
+#p1 {
+    font-size: 32px;
+    color: blue;
+    font: bold;
+}
+
+#p2 {
+    font-size: 20px;
+    color: blue;
+    font: bold;
+}
+
+.divappand {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 30%;
+}
+
+#appstore {
+    width: 150px;
+    height: 50px;
+}
+
+#android {
+    width: 150px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-grow: 1;
+    background-color: blue;
+    border-radius: 30px;
+    width: 40%;
+}
+
+#a1 {
+    color: white;
+    text-decoration: none;
+}
+
+.divicon {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    width: 10%;
+}
+
+#facebook {
+    width: 25px;
+    height: 25px;
+}
+
+#twiter {
+    width: 25px;
+    height: 25px;
+}
+
+#youtube {
+    width: 25px;
+    height: 25px;
+}
+
+.iframe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#i1 {
+    width: 300px;
+    height: 300px;
+}
+
+/*0F1E36*/
+.divradio {
+    display: flex;
+    background-color: rgb(30, 30, 59);
+    font: 20px bold;
+    flex-direction: row-reverse;
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0px 20px;
+    margin-top: 5px;
+}
+
+.audiodiv {
+    display: flex;
+    border-radius: 90px;
+    background-color: rgb(9, 9, 226);
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+
+    padding: 20px;
+}
+
+#radio {
+    margin-right: 6px;
+    width: 30px;
+    height: 30px;
+}
+
+.divaman {
+    background-color: rgb(0, 162, 255);
+    color: white;
+    direction: rtl;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.containerdiv {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-image: url(/bg2.png);
+    padding: 20px;
+    height: 100%;
+}
+
+.child1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+svg {
+    translate: 150px 0;
+}
+
+.svgdate {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: rgb(97, 126, 190);
+    border-radius: 30px;
+}
+
+.numdate {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#num {
+    font-size: 40px;
+    color: white;
+}
+
+#date {
+    font-size: 15px;
+    color: white;
+    margin-left: 5px;
+}
+
+.containerdiv {
+    margin-top: 5px;
+
+}
+
+.salat {
+
+
+    margin-top: 5px;
+    background-color: rgb(97, 126, 190);
+    border-radius: 30px;
+}
+
+.salatazane {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    color: white;
+    flex-grow: 1;
+    padding: 20px 20px;
+    font: 25px bold;
+}
+
+.salatazanechild {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    color: white;
+    flex-grow: 1;
+    padding: 20px 20px;
+    font: 25px bold;
+    border-radius: 90px;
+    background-color: rgb(46, 78, 146);
+    margin: 10px;
+    opacity: 0.8;
+}
+
+.slogan11 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#slogan1 {
+
+
+    margin-top: 5px;
+    width: 80%;
+    height: 80%;
+
+}
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: blue;
+    border-radius: 30px;
+    width: 60%;
+    margin-right: 10px;
+
+}
+
+h3 {
+    padding: 20px;
+}
+
+.programme {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    height: 1200px;
+}
+
+.programmechild {
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    justify-content: space-between;
+
+    flex-grow: 1;
+
+}
+
+.pprogramme {
+
+    position: static;
+    background-color: white;
+    color: #1600ff;
+    border-radius: 45px;
+    padding: 10px;
+    font-size: 25px;
+    opacity: 0.8;
+
+}
+
+.p1 {
+    display: flex;
+    flex-direction: row;
+    background-image: url("/اناانتنحن.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.p2 {
+    display: flex;
+    flex-direction: row;
+    background-image: url("/ainhadath.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.p3 {
+    display: flex;
+    flex-direction: row;
+    background-image: url("montakat.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.p4 {
+    display: flex;
+    flex-direction: row;
+    background-image: url("/ainhadath1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.p5 {
+    margin: top 10px;
+    display: flex;
+    flex-direction: row;
+    background-image: url("/doctor.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.ainhadath{
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/doctor.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: start;
+    width:90%;
+    height: 250px;
+    border-radius: 30px;
+}
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.divp_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+}
+
+.divafooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+#afooter {
+    color: black;
+    font-size: 15px;
+    translate: x 50px;
+    text-decoration: none;
+}
+
+a#a1:focus{
+background-color: black;
+box-sizing: content-box;
+box-shadow: #020108;
+border-radius: 90px;
+outline: 3px ;
+}
